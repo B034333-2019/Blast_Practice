@@ -1,0 +1,5 @@
+#!/bin/bash
+FS="\t"
+while read query_acc, subjec_acc, %_identity, alignment_length, mismatches, gap_opens, q_start, q_end, s_start, s_end, evalue, bit_score;
+echo -e "$subjec_acc";
+done
